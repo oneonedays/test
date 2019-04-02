@@ -1,0 +1,45 @@
+.title img {
+  width: 0.66rem;
+  height: 0.64rem;
+}
+
+section {
+  margin-top: 0.335rem;
+  margin-bottom: 0.934rem;
+}
+
+section .cprize_title {
+  color: #E93E3E;
+}
+
+section .cprize_wrap {
+  margin-top: 0.83rem;
+  margin-bottom: 0.41rem;
+  width: 5.325rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section .cprize_wrap>div {
+  padding: 0.2rem 0.1rem;
+  width: 1.575rem;
+  border-radius: 0.08rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+section .cprize_wrap>div img {
+  width: 100%;
+}
+
+section .cprize_wrap>div span {
+  font-size: 0.16rem;
+}
+
+section .prize_tip {
+  color: #B5B5B5;
+}
+

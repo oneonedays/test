@@ -1,0 +1,57 @@
+.title img{
+  width:0.5rem;
+  height:0.54rem;
+}
+ section {
+   margin-top: 0.32rem;
+   margin-bottom: 1.04rem;
+ }
+
+ section .head_wrap {
+   width: 2.9rem;
+   border-radius: 0.2rem;
+   overflow: hidden;
+ }
+
+ section .head_wrap img {
+   width: 100%;
+ }
+
+ section .sec_one {
+   margin-top: 0.39rem;
+ }
+
+ section .sec_two {
+   margin-top: 0.65rem;
+ }
+
+ section .sec_three {
+   margin-top: 0.35rem;
+ }
+
+ section .text_head {
+   color: #F4F4F4;
+   font-size: 0.32rem;
+   margin-bottom: 0.30rem;
+ }
+
+ section .text_con {
+   font-family: 'w3';
+   color: #B5B5B5;
+   font-size: 0.20rem;
+   line-height: 1.8;
+   letter-spacing:0.01rem;
+ }
+
+ section .data_o {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+ }
+
+ .next {
+   margin-bottom: 0.64rem;
+ }

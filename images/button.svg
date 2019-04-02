@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="284px" height="66px" viewBox="0 0 284 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>button1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#E10012" offset="0%"></stop>
+            <stop stop-color="#979797" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="H5页面设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Workshop-健身达人" transform="translate(-178.000000, -1421.000000)">
+            <g id="button1" transform="translate(174.000000, 1418.000000)">
+                <g id="Group" transform="translate(5.588517, 4.543689)">
+                    <g id="边框" transform="translate(0.000000, 0.349515)" stroke="#E10012" stroke-width="2.8">
+                        <polyline id="Path-2-Copy-2" points="0 28.6601942 8.29386955 0 80.3349282 0"></polyline>
+                    </g>
+                    <path d="M80.3349282,0.349514563 L272.440191,0.349514563" id="Path" stroke="url(#linearGradient-1)" stroke-width="2.8"></path>
+                </g>
+                <g id="Group-Copy" transform="translate(149.492823, 52.427184) scale(-1, -1) translate(-149.492823, -52.427184) translate(13.272727, 37.747573)">
+                    <g id="边框" transform="translate(0.000000, 0.349515)" stroke="#E10012" stroke-width="2.8">
+                        <polyline id="Path-2-Copy-2" points="0 28.6601942 8.29386955 0 80.3349282 0"></polyline>
+                    </g>
+                    <path d="M80.3349282,0.349514563 L272.440191,0.349514563" id="Path" stroke="url(#linearGradient-1)" stroke-width="2.8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

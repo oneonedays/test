@@ -1,0 +1,114 @@
+body {
+  background: #fff;
+  padding-top: 136px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header .logo {
+  width: 171px;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+section {
+  margin-top: 108px;
+}
+
+section .sec_titel {
+  font-size: 35px;
+  color: #777777;
+}
+
+section .input_wrap {
+  width: 1037px;
+  height: 80px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 28px;
+
+}
+
+section .input_wrap .ipt_wr {
+  width: 818px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #979797;
+}
+
+section .input_wrap .btn_wr {
+  width: 219px;
+  height: 100%;
+}
+
+section .input_wrap .num {
+  height: 90%;
+  width: 97%;
+  font-size: 26px;
+  color: #7E7E7E;
+  border: none;
+  position: relative;
+  top: 5%;
+  left: 20px;
+}
+
+section .input_wrap .btn {
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  color: #f4f4f4;
+  border: 0;
+  outline: none;
+  /* 用于IOS下移除原生样式 */
+  -webkit-appearance: none;
+  /* border: 1px solid transparent; */
+  /* background:linear-gradient(-155deg, #FD2727 0%, #A90808 100%); */
+  /* Safari 5.1 - 6.0 */
+  /* Opera 11.1 - 12.0 */
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(-155deg, #FD2727 0%, #A90808 100%);
+  /* 标准的语法 */
+}
+
+section .state_wrap {
+  color: #7E7E7E;
+  font-size: 26px;
+  margin-top: 23px;
+}
+
+section .state_result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 106px;
+
+}
+
+section .state_result img {
+  width: 52px;
+}
+
+section .state_result .state_title {
+  margin-left: 32px;
+}
+
+section .state_message {
+  line-height: 34px;
+  margin-top: 12px;
+  margin-left: 187px;
+
+}

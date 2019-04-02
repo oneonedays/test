@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>选择奖品</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/public.css">
+  <link rel="stylesheet" href="./css/cprize.css">
+</head>
+
+<body>
+  <div class="wrtie_wrap cf4 fw6">
+    <header></header>
+    <div class="title">
+      <img src="./images/t_game.svg" alt="">
+      <span class="f32">请选择您的奖品</span>
+    </div>
+    <section>
+      <div class="cprize_title t-a f38">
+        恭喜您获得胜利
+      </div>
+      <div class="cprize_wrap m-a">
+        <div>
+          <img class="iprize" src="./images/prize/prize_1.png" alt="">
+          <span class="iprize_text">名爵运动水壶</span>
+        </div>
+        <div>
+          <img class="iprize" src="./images/prize/prize_2.png" alt="">
+          <span class="iprize_text">名爵运动水壶</span>
+        </div>
+        <div>
+          <img class="iprize" src="./images/prize/prize_3.png" alt="">
+          <span class="iprize_text">名爵运动水壶</span>
+        </div>
+        <div>
+          <img class="iprize" src="./images/prize/prize_4.png" alt="">
+          <span class="iprize_text">名爵运动水壶</span>
+        </div>
+        <div>
+          <img class="iprize" src="./images/prize/prize_5.png" alt="">
+          <span class="iprize_text">名爵运动水壶</span>
+        </div>
+        <div>
+          <img class="iprize" src="./images/prize/prize_6.png" alt="">
+          <span class="iprize_text">名爵运动水壶</span>
+        </div>
+
+      </div>
+      <div class="prize_tip t-a f20">
+        请选取以上奖品之一领取，个别奖品数量有限，送完即止。
+      </div>
+    </section>
+    <div class="next f26">
+      <span>继续</span>
+    </div>
+    <script src="./js/tool.js"></script>
+    <script>
+      window.onload = function () {
+        //点击出现红色背景效果.
+        + function () {
+          let prize = document.querySelector('.cprize_wrap');
+          prize.addEventListener('click', function (event) {
+            let e = window.event || event;
+            let targetObj = e.target || e.srcElement;
+            console.log(targetObj)
+            if (targetObj.className == 'iprize' || targetObj.className == 'iprize_text') {
+              let list = this.children;
+              let newlis = Array.prototype.slice.call(list)
+              newlis.forEach((el, i) => {
+                el.style.backgroundColor = 'transparent';
+              })
+              targetObj.parentNode.style.backgroundColor = 'red';
+            }
+
+          })
+
+
+        }()
+
+      }
+    </script>
+</body>
+
+</html>

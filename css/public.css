@@ -1,0 +1,47 @@
+.wrtie_wrap {
+  width: 6.4rem;
+  padding-top: 0.39rem;
+}
+
+.logo {
+  height: 0.83rem;
+  background: url('../images/logo.svg') no-repeat center center;
+  background-size: 0.73rem 0.73rem;
+  box-sizing: border-box;
+  padding-left: 0.37rem;
+  display: flex;
+  align-items: center;
+}
+
+.back {
+  width: 0.27rem;
+  height: 0.46rem;
+}
+
+.back img {
+  width: 100%;
+}
+
+.title {
+  height: 0.55rem;
+  /* padding-left: 2.39rem; */
+  background:  no-repeat 1.72rem center;
+  background-size: 0.51rem 0.55rem;
+  margin-top: 0.17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title span {
+  line-height: 0.55rem;
+  padding-left: 0.19rem;
+}
+
+.next {
+  height: 0.635rem;
+  background: url('../images/button.svg') no-repeat center center;
+  background-size: 2.83rem 0.635rem;
+  text-align: center;
+  line-height: 0.635rem;
+}

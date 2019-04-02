@@ -1,0 +1,12 @@
+
+.title img{
+  width: 0.63rem;
+  height:0.63rem;
+}
+ .next {
+   height: 0.635rem;
+   background: url('../images/button.svg') no-repeat center center;
+   background-size: 2.83rem 0.635rem;
+   text-align: center;
+   line-height: 0.635rem;
+ }

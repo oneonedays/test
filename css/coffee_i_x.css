@@ -1,0 +1,70 @@
+.title img {
+  width: 0.63rem;
+  height: 0.63rem;
+}
+
+section {
+  margin-top: 0.27rem;
+  margin-bottom: 0.98rem;
+}
+
+section .mes_wrap {
+  width: 5.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+section .showCode {
+  line-height: 1.5;
+}
+
+section .c1_wrap {
+  width: 2.08rem;
+  height: 2.27rem;
+}
+
+section .c1_wrap img {
+  width: 100%;
+}
+
+section .c2_wrap {
+  width: 100%;
+  height: 100%;
+}
+
+section .c2_wrap img {
+  width: 100%;
+}
+
+section .c1_mes {
+  color: #B5B5B5;
+  line-height: 1.5;
+}
+
+section .showAddress {
+  color: #B5B5B5;
+  margin: 0.2rem auto;
+}
+
+section .code_wrap {
+  width: 3.86rem;
+  margin: 0.3rem auto;
+}
+
+.code_wrap img {
+  width: 100%;
+}
+
+section .data {
+  color: #B5B5B5;
+}
+
+.next {
+  margin-bottom: 0.37rem;
+}

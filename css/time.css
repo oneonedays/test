@@ -1,0 +1,60 @@
+.title {
+  margin-bottom: 0.64rem;
+}
+
+.title img {
+  width: 0.5rem;
+  height: 0.54rem;
+}
+
+section {
+  padding: 0 0.34rem
+}
+
+section .con {
+  margin-top: 0.37rem;
+}
+
+.cathedra_name {
+  margin-bottom: 0.1rem;
+}
+
+.teacher_name {
+  color: #B5B5B5 ;
+}
+
+section .cathedra_wrap {
+  margin-bottom: 0.21rem;
+
+}
+
+.cathedra_data {
+ 
+  margin-bottom: 0.16rem;
+}
+
+section .cathedra_time {
+  display: flex;
+  justify-content: space-around;
+}
+
+section .cathedra_time_i {
+  width: 2.6rem;
+  height: 0.88rem;
+  line-height: 1.5;
+  border: 1px solid #979797;
+  border-radius: 0.09rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section .user_c {
+  color: #B5B5B5;
+  margin-top: 0.32rem;
+  margin-bottom: 0.66rem;
+}
+.next{
+  margin-bottom: 0.7rem;
+}

@@ -1,0 +1,52 @@
+.title img {
+  width: 0.51rem;
+  height: 0.55rem;
+}
+
+section {
+  margin-bottom: 1.8rem;
+}
+
+section ul {
+  height: 6.31rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+}
+
+section ul li h6 {
+  font-size: 0.26rem;
+  margin-bottom: 0.17rem;
+}
+
+section ul li input,
+section ul li select {
+  width: 4.61rem;
+  height: 0.65rem;
+  border: 1px solid #868686;
+  background: transparent;
+  font: 0.20rem 'w3';
+  text-indent: 0.20rem;
+  color: #636363;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+section ul li select {
+  -webkit-appearance: none;
+  background: url('../images/downArrow.svg') no-repeat 4rem center;
+  background-size: 0.42rem 0.20rem;
+}
+
+select option {
+  background: #00060f;
+}

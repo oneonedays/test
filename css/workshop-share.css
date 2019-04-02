@@ -1,0 +1,92 @@
+.title img {
+  width: 0.63rem;
+  height: 0.63rem;
+}
+
+section {
+  padding: 0 0.44rem;
+}
+
+section .flexshow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 0.03rem solid #FFFCFC;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 0.16rem;
+}
+
+.share_head {
+  color: #B5B5B5;
+  font-size: 0.26rem;
+  margin-top: 0.33rem;
+  margin-bottom: 0.26rem;
+}
+
+.share_start {
+  padding-left: 1.02rem;
+  height: 1.44rem;
+}
+
+.share_start p {
+  font-size: 0.26rem;
+  color: #F4F4F4;
+  text-shadow: 0 2px 28px rgba(255, 255, 255, 0.50);
+}
+
+.share_start img {
+  width: 1.55rem;
+  height: 1.55rem;
+}
+
+section .teacher_list {
+  padding: 0.18rem 0.2rem;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+section .img_wrap {
+  width: 1.73rem;
+  height: 1.82rem;
+  border-radius: 0.16rem;
+  overflow: hidden;
+}
+
+section .img_wrap img {
+  width: 100%;
+}
+
+section .teacher_mes {
+  text-align: right;
+}
+
+section .teacher_mes li {
+  color: #B5B5B5;
+  line-height: 1.8;
+}
+
+section .teacher_mes li:nth-child(1) {
+  font-size: 0.28rem;
+  color: #f4f4f4;
+}
+
+section .teacher_mes li:nth-child(2) {
+  font-size: 0.23rem;
+  color: #f4f4f4;
+}
+
+section .teacher_mes li:nth-child(3) {
+  font-size: 0.17rem;
+  font-family: 'w3'
+}
+
+section .teacher_mes li:nth-child(4) {
+  font-size: 0.15rem;
+  font-family: 'w3'
+}
